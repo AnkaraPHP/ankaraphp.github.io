@@ -83,6 +83,7 @@ header {
     text-align: center;
     color: #fff;
     background: #18bc9c;
+    z-index: 3;
 }
 
 header .container {
@@ -456,4 +457,23 @@ footer .footer-below {
 .portfolio-modal .modal-backdrop {
     display: none;
     opacity: 0;
+}
+
+.event-detail{
+    margin-top: 5px;
+    padding-bottom: 10px;
+    border: 1px solid #18bc9c;
+    z-index: 1;
+}
+.event-detail .event-header{
+    background-color: #18bc9c;
+    color: white;
+}
+.event-detail .tax > span{
+    display: inline-block;
+    width: 100%;
+    margin-top: 25px;
+}
+.event-detail .info > p{
+    margin-top: 25px;
 }
