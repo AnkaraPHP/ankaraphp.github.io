@@ -255,6 +255,10 @@ section.success a.active {
     z-index: 2;
 }
 
+#portfolio .portfolio-item:last-child .caption{
+    opacity:1;
+}
+
 @media(min-width:767px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
